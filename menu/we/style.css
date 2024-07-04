@@ -1,0 +1,76 @@
+/* Стили для секцци из меню(бургера) "О нас"*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: url(we-fon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.close {
+    float: right;
+}
+/* header */
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.wrapper__text__h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #bb834f;
+    margin: 0rem 0rem 1rem 2.5rem;
+    font-family: "Bitter", serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+}
+.wrapper__text {
+    width: 45%;
+    font-size: 1.5rem;
+    color: #211f1f;
+    padding: 1rem 1rem;
+}
+
+.wrapper__img {
+    width: 50%;
+    
+}
+.wrapper__img img {
+    border-radius: 50px;
+}
+/* aside */
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.instructor {
+    width: 20%;
+}
+
+.instructor img {
+    border-radius: 50px;
+}
+.instructor p {
+    font-size: 1rem;
+    padding: 0rem 0.5rem;
+    color: #211f1f
+}
+.instructor h3 {
+    color: #A14F03;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
